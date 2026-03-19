@@ -23,7 +23,7 @@ summary_prompt_template = PromptTemplate(input_variables=["information"],templat
 
 client = ChatNVIDIA(
   model="qwen/qwen2.5-coder-32b-instruct",
-  api_key="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", 
+  api_key="", 
   temperature=0.2,
   top_p=0.7,
   max_tokens=1024,
